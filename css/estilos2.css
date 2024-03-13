@@ -1,0 +1,93 @@
+.cajaMadre{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+
+.caja1{
+    margin: 5px;
+    background-color: aqua;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;    
+    position: relative;
+}
+
+.minicaja3{
+    background-color: rgb(209, 43, 43);
+    margin: 5px;
+    width: 150px;
+    height: 280px;
+    position: relative;
+}
+.minicaja4{
+    background-color: rgb(209, 43, 43);
+    margin: 5px;
+    width: 150px;
+    height: 280px;
+    position: relative;
+}
+
+.caja2{
+    margin: 5px;
+    background-color: chartreuse;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 5;
+
+}
+.minicaja2{
+    background-color: rgb(237, 209, 209);
+    margin: 5px;
+    width: 130px;
+    height: 150px;
+    position: static;
+    flex-grow: 1;
+
+}
+
+.caja3{
+    margin: 5px;
+    background-color: chocolate;
+    padding: 10px;
+    width: 200px;
+    align-content: center;
+    flex-grow: 3;
+}
+.caja3-0{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.caja3-1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.minicaja5{
+    width: 480px;
+    height: 125px;
+    align-self  : center;
+    background-color: rgb(196, 46, 171);
+    margin-bottom: 10px;
+}
+.minicaja5-1{
+    width: 200px;
+    height: 125px;
+    margin: 5px;
+    background-color: rgb(186, 25, 25);
+    position: relative;
+}
+
